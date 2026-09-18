@@ -1,0 +1,10 @@
+# 本地过程与参考资料，不进入公开仓库
+docs/
+reference/
+.worktrees/
+
+# 依赖与系统文件
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
