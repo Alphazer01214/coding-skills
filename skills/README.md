@@ -16,6 +16,7 @@
 ## Model-invoked
 
 - [debug](./engineering/debug/SKILL.md)：intake → red loop → locate → 对齐 fix
+- [doc-style](./writing/doc-style/SKILL.md)：中文技术文档规范落地，降 AI writing 成分
 
 ## 维护
 

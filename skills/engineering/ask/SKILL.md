@@ -1,6 +1,6 @@
 ---
 name: ask
-description: 不知道该用哪个 skill 时问这里：按场景路由到 to-project / to-constraints / to-plan / change / explain-project / debug。
+description: 不知道该用哪个 skill 时问这里：按场景路由到 to-project / to-constraints / to-plan / change / explain-project / debug / doc-style。
 disable-model-invocation: true
 ---
 
@@ -20,6 +20,7 @@ disable-model-invocation: true
 | 要改/增强**已有功能** | `/change` |
 | 要讲解仓库 / 画依赖图（到结构体/函数） | `/explain-project` |
 | 东西坏了、不对、变慢 | `/debug`（模型也会在报障时进入） |
+| 写/改中文技术文档，要去 AI 味 | `/doc-style`（模型写文档时也会进入） |
 
 ## 主流程（新项目）
 
@@ -34,6 +35,7 @@ disable-model-invocation: true
 - **计划与进展** vs **单次功能修改**：`to-plan` vs `change`
 - **讲解/画图** vs **改代码**：`explain-project` 不改码；改码走 `change`
 - **坏了** vs **新功能**：`debug` vs `change`
+- **文档规范层** vs **句式腔调层**：`doc-style`（结构/间距/标点/句长）vs 成稿后 `lieflat-less-ai-tone`（翻案腔/破折号等 AI 痕迹）
 - 文档已齐、只差实现：不要空跑 `to-project`；任务进 `PLAN.md` 后用 `change` 或实现流程
 
 ## 规则

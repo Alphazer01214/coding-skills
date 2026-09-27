@@ -12,6 +12,7 @@
 | 改个功能变成屎山 | [`change`](skills/engineering/change/SKILL.md) | 边界→seam→切片→**Structure∥Spec** 双轴评审 |
 | 排障靠猜，越改越花 | [`debug`](skills/engineering/debug/SKILL.md) | 现象引导→**red loop**→对齐 fix intent 再动手 |
 | 陌生仓库讲不清、图画不对 | [`explain-project`](skills/engineering/explain-project/SKILL.md) | 讲解 + Mermaid 依赖图（可到函数/结构体） |
+| 文档 AI 味重、格式不规范 | [`doc-style`](skills/writing/doc-style/SKILL.md) | 中文技术文档规范落地，降 AI writing |
 | 不知道该用哪个 | [`ask`](skills/engineering/ask/SKILL.md) | Router：按场景选型 |
 
 ## 设计原则
@@ -47,7 +48,7 @@
 /to-project  →  /to-constraints  →  /to-plan
 ```
 
-之后：改功能 `/change`，排错 `/debug`，读仓库 `/explain-project`。
+之后：改功能 `/change`，排错 `/debug`，读仓库 `/explain-project`，写文档 `/doc-style`。
 
 ## 仓库结构
 
@@ -56,14 +57,16 @@ coding-skills/
 ├── AGENTS.md                 # skill 写法与证据优先级等不变量
 ├── skills/
 │   ├── README.md             # 清单
-│   └── engineering/
-│       ├── ask/
-│       ├── to-project/
-│       ├── to-constraints/
-│       ├── to-plan/
-│       ├── change/
-│       ├── debug/
-│       └── explain-project/
+│   ├── engineering/
+│   │   ├── ask/
+│   │   ├── to-project/
+│   │   ├── to-constraints/
+│   │   ├── to-plan/
+│   │   ├── change/
+│   │   ├── debug/
+│   │   └── explain-project/
+│   └── writing/
+│       └── doc-style/
 └── README.md
 ```
 
